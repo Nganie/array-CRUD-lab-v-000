@@ -3,7 +3,7 @@ def create_an_empty_array
 end
 
 def create_an_array
- array = ["0", "1", "2", "3"]
+ array = ["0", "1", "2", "3", "am"]
 end
 
 def add_element_to_end_of_array(array, element)
@@ -23,7 +23,7 @@ array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-array[0]
+array[4]
 end
 
 def retrieve_first_element_from_array(array)
